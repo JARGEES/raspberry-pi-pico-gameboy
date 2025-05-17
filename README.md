@@ -1,6 +1,6 @@
 # Pi-Pico-Game-Boy
 Code for the Raspberry Pi Pico Game Boy
-
+# NOTE: The layout is given off a different project by:
 * [YouTube video](https://youtu.be/IP3QVGmd_90)
 * [Assembly instructions](https://www.youmaketech.com/raspberry-pi-pico-gameboy/)
 
@@ -10,9 +10,9 @@ Code for the Raspberry Pi Pico Game Boy
 - To automatically start a game when the Raspberry Pi Pico is powered on, rename the game (e.g. tetris.py) to main.py
 
 # Available games
-- tetris.py: Tetris
-- GameOfLife.py: John Conway's Game of Life
-- PicoFlappyBird.py: Flappy Bird, my son's favorite game! *** work in progress ***
+- Space Invaders: Two versions of the game with different difficulties
+- DOOM: A spin on DOOM classic (It may require stronger cpu)
+- Chess (Meant for 2 players and no bot at the moment) *** Work in progress ***
 
 # Other files
 - st7789.py: MicroPython ST7789 OLED driver, SPI interface
