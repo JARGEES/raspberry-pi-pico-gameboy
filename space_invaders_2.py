@@ -362,7 +362,7 @@ def draw_intro_screen():
     pgb.text("500 pts", 140, 175, RED)
     
     # Draw difficulty options
-    pgb.text("SELECT DIFFICULTY:", 60, 195, WHITE)
+    pgb.text("SELECT DIFFICULTY:", 60, 200, WHITE)
     pgb.text("A: EASY", 90, 210, WHITE)
     pgb.text("LEFT: MEDIUM", 90, 220, WHITE)
     pgb.text("B: HARD", 90, 225, WHITE)
@@ -1161,7 +1161,6 @@ def main():
         pgb.text("GET READY!", 90, 120, GREEN)
         pgb.show()
         sleep(1)
-        
         for i in range(3, 0, -1):
             pgb.fill(BLACK)
             pgb.text(str(i), 115, 120, WHITE)
